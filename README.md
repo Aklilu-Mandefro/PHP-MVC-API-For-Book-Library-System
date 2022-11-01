@@ -24,7 +24,12 @@
 
 # Book Rest API
 
-This project is for searching books with rest API in PHP.
+This project is for searching books with rest API in PHP. It is an API for book library system that has the following features:
+1. Find books by title, author name or ISBN
+2. Find authors by name
+3. Pagination
+
+
 
 ## Setup
 
