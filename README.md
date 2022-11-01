@@ -22,7 +22,7 @@
 
 ### Let's get started!
 
-# Book Rest API
+# Book Rest API in PHP-MVC
 
 This project is for searching books with rest API in PHP. It is an API for book library system that has the following features:
 1. Find books by title, author name or ISBN
