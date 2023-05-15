@@ -24,14 +24,15 @@ $router = new Router('/' . strtolower($request->getUrl()), $request->getMethod()
 
 // check install 
 $file = SCRIPT . 'SQL/library-sql.sql';
-if (file_exists($file) && strtolower($request->getUrl()) !== 'install') {
-    exit('Your System Not Installed please try with /install');
+if (file_exists($file) && strtolower($request->getUrl()) !== 'install')
+{
+ exit('Your System Not Installed please try with /install');
 }
 
 // import router file
 require 'Router/Router.php';
 
-// Router Run Request
+// Request to run a router 
 $router->run();
 
 // Response Render Content
