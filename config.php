@@ -19,16 +19,16 @@ define('SYSTEM', SCRIPT . 'System/');
 define('CONTROLLERS', SCRIPT . 'Application/Controllers/');
 define('MODELS', SCRIPT . 'Application/Models/');
 
-// Config Database
+//config the database
 define('DATABASE', [
-    'Port'   => '3306',
-    'Host'   => 'localhost',
+    'port' =>'3306',
+    'Host' => 'localhost',
     'Driver' => 'PDO',
-    'Name'   => '',
-    'User'   => '',
-    'Pass'   => '',
-    'Prefix' => ''
-]);
+    'Name' => '',
+    'User' => '',
+    'Pass' => '',
+    'Prefix' => '',
+    ]);
 
 // DB_PREFIX
 define('DB_PREFIX', '');
